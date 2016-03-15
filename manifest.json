@@ -9,7 +9,7 @@
        "persistent": false
      },
   "permissions":
-    ["https://www.youtube.com/", "tabs"]
+    ["tabs"]
   ,
   "page_action": {
   "default_icon": "icon.png",
