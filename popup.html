@@ -27,22 +27,22 @@
       -
       - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
      -->
-    <script src="popup.js"></script>
   </head>
   <body>
     <div id = stat>
-        Report this page to the FCC?
+        Report this video to the FCC?
 
-        <form>
-            <button type="submit" value="Submit">Open FCC report page</button>
+        <form id = "fcc">
+            <button id = "buttonfcc" type="submit" value="Submit">Open FCC report page</button>
         </form>
 
-        Report this page to YouTube?
-        <form>
-            <button type="submit" value="Submit">Open YouTube report page</button>
+        Report this video to YouTube?
+        <form id = "youtube">
+            <button id = "buttonyou" type="submit" value="Submit">Open YouTube report page</button>
         </form>
 
     </div>
+    <script src="popup.js"></script>
 
   </body>
 </html>
