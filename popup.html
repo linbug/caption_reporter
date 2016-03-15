@@ -11,26 +11,31 @@
       body {
         font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
         font-size: 100%;
+        width:400px;
+        margin: 20px;
       }
       #stat {
         /* avoid an excessively wide status text */
-        white-space: pre;*/
-        text-overflow: ellipsis;
+        /*white-space: pre;*/*/
+        /*text-overflow: ellipsis;
         overflow: hidden;
-        max-width: 400px;
+        max-width: 400px;*/
       }
     </style>
 
   </head>
   <body>
     <div id = stat>
-        Report this video to the FCC?
-
+        <h3> Should this video have captions? </h3>
+        <p>
+        <a href = https://www.federalregister.gov/articles/2012/03/30/2012-7247/closed-captioning-of-internet-protocol-delivered-video-programming-implementation-of-the> The Communications and Video Accessibility Act of 2010 </a> requires that video programming that is closed captioned on TV must be closed captioned when distributed on the Internet.
+        </p>
+        <p>
+        If you believe that this video should have captions, report it to the FCC and YouTube using the links below.
+        </p>
         <form id = "fcc">
             <button id = "buttonfcc" type="submit" value="Submit">Open FCC report page</button>
         </form>
-
-        Report this video to YouTube?
         <form id = "youtube">
             <button id = "buttonyou" type="submit" value="Submit">Open YouTube report page</button>
         </form>
