@@ -16,8 +16,5 @@
   "default_popup": "popup.html",
   "default_title": "Report page"
   }
-  // "permissions": [
-  //   "activeTab",
-  //   "https://ajax.googleapis.com/"
-  // ]
+
 }
