@@ -1,0 +1,42 @@
+a {
+    border:0px;
+    border-style:none;
+    outline:none;
+    text-decoration: none;
+}
+body {
+font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+font-size: 100%;
+width:400px;
+margin: 20px;
+}
+
+button {
+    background-color: #3f5672;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    width:180px;
+}
+
+button:hover {
+    background-color: #28405d;
+
+}
+
+#buttons{
+    display: flex;
+    justify-content:space-between;
+
+}
+#stat {
+/* avoid an excessively wide status text */
+/*white-space: pre;*/*/
+/*text-overflow: ellipsis;
+overflow: hidden;
+max-width: 400px;*/
+}
