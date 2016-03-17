@@ -5,11 +5,11 @@
   "description": "Report videos without captions to the FCC",
   "version": "1.0",
   "background": {
-       "scripts": ["background.js"],
+       "scripts": ["background.js", "youtab.js"],
        "persistent": false
      },
   "permissions":
-    ["tabs"]
+    ["tabs", "https://www.youtube.com/caption_notification"]
   ,
   "page_action": {
   "default_icon": "caption.png",
